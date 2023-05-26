@@ -7,7 +7,7 @@ const Banner = () => {
   // const introText = "Intro text goes here";
 
   return (
-    <div className="w-full bg-black border-b-2 border-lightBackground overflow-hidden pt-12 min-h-[60vh]">
+    <div className="w-full  border-b-2 border-lightBackground overflow-hidden pt-12 min-h-[60vh]">
       <div className="flex flex-col items-center sm:flex-row py-10 px-4 max-w-5xl mx-auto gap-6">
         <div className="flex flex-col items-start justify-center flex-1 gap-4 ">
           <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold text-headline pt-2 pb-2 animate-fade animate-once text-cyan-50">

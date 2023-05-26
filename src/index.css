@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scroll-behavior: smooth;
+  scrollbar-width: auto;
+  scrollbar-color: black;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(24, 22, 22);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3d3d3d60;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  background-color: #3d3d3d;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
